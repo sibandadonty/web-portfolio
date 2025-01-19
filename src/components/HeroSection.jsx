@@ -3,8 +3,8 @@ import profileImg from "../assets/images/profile-1.jpg";
 
 function HeroSection() {
   return (
-    <div className="text-white">
-      <div>
+    <div className="text-white flex h-[25rem]">
+      <div className="flex-1 flex flex-col gap-2 items-start self-center">
       <h1>Fullstack Software Developer</h1>
       <p>
         I am Donty, a full-stack software developer with a passion for building
@@ -14,8 +14,8 @@ function HeroSection() {
       </p>
       <button>Download My CV</button>
       </div>
-      <div>
-        <img src={profileImg} alt="profile picture" />
+      <div className="flex-1">
+        <img src={profileImg} className="w-full" alt="profile picture" />
       </div>
     </div>
   );
