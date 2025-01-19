@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
+import { IoClose } from "react-icons/io5";
 
 function NavBar() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <nav className="flex justify-between px-8 py-4 bg-primary text-white border-2 border-gray-200 rounded-md">
+    <nav className="flex justify-between p-4 bg-primary text-white border-2 border-gray-200 rounded-md">
       <h3>Donty Sibanda</h3>
 
       {/* Mobile Navigation */}
@@ -34,7 +35,19 @@ function NavBar() {
       </ul>
 
       <div className="md:hidden">
-        <CiMenuBurger size={24} onClick={() => setShowNav(!showNav)}/>
+        {showNav ? (
+          <IoClose
+            className="cursor-pointer"
+            size={24}
+            onClick={() => setShowNav(false)}
+          />
+        ) : (
+          <CiMenuBurger
+            className="cursor-pointer"
+            size={24}
+            onClick={() => setShowNav(!showNav)}
+          />
+        )}
       </div>
 
       {/* Desktop Navigation */}
