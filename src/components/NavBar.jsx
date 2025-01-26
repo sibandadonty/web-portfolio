@@ -6,7 +6,7 @@ function NavBar() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <nav className="flex justify-between p-4 bg-primary text-white border-2 border-gray-200 rounded-md">
+    <nav className="flex justify-between p-4 bg-primary text-white ">
       <h3>Donty Sibanda</h3>
 
       {/* Mobile Navigation */}
