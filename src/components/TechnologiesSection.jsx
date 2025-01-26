@@ -1,10 +1,18 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
-import { CiLinkedin } from "react-icons/ci";
-import { MdOutlineEmail } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
-import { PiTelegramLogo } from "react-icons/pi";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTailwindCss } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { SiFastapi } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa6";
+import { FaFlutter } from "react-icons/fa6";
 
 function TechnologiesSection() {
   return (
@@ -12,12 +20,24 @@ function TechnologiesSection() {
       <h1 className="text-3xl md:text-4xl lg:text-5xl text-white text-center">Skills</h1>
       <p className="text-white text-center">The skills, tools and technologies i use: </p>
       <div className="flex gap-4 flex-wrap justify-center justify-items-center">
-        <FaInstagram color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14"/>
-        <BsTwitterX color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
-        <CiLinkedin color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
-        <MdOutlineEmail color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
-        <FaWhatsapp color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
-        <PiTelegramLogo color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <FaHtml5 color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14"/>
+        <FaCss3Alt color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <IoLogoJavascript color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <BiLogoTailwindCss color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <FaReact color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <SiTypescript color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <FaNodeJs color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <FaPython color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+
+        <SiFastapi color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <SiTensorflow color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+
+        <SiScikitlearn color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <SiPandas color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+
+        <SiNumpy color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        <FaFlutter color="white" className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14" />
+        
       </div>
     </div>
   );

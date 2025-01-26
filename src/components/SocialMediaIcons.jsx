@@ -1,4 +1,10 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { CiLinkedin } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+import { PiTelegramLogo } from "react-icons/pi";
 
 function SocialMediaIcons() {
   return (
