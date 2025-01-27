@@ -36,7 +36,7 @@ function ProjectsSection() {
     {
       id: "p5",
       description:
-        "A platform to learn new programming languages interactively.",
+        "Learn new programming languages interactively.",
       title: "Code Academy",
       url: "https://www.codeacademy.com",
       thumbNail: projectImg,
